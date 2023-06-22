@@ -1,0 +1,86 @@
+:root {
+	--mainclr: #018ea7;
+	--secclr: #032231;
+	--third: #93e2f0;
+	--mainafterclr: hsl(167, 81%, 79%);
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  form {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #93e2f0;
+	
+  }
+  
+  fieldset {
+	border: 15px solid #93e2f0;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+  }
+  
+  legend {
+	font-weight: bold;
+	font-size: 1.2em;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	box-sizing: border-box; /* Add this line to include padding and border in the width */
+  }
+  
+  select {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	box-sizing: border-box; /* Add this line to include padding and border in the width */
+  }
+  
+  button[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #032231;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  label {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  input[type="radio"] {
+	display: inline-block;
+	appearance: none;
+	border: 2px solid #1f1919;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+  }
+  
+  input[type="radio"]:checked {
+	background-color: #0b98df;
+  }
+  
